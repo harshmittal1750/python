@@ -99,3 +99,15 @@ print(b << 5)  # 13 * 2*2*2*2*2
 print(b << 6)  # 13 * 2*2*2*2*2*2
 print(b << 7)  # 13 * 2*2*2*2*2*2*2
 print(b << 8)  # 13 * 2*2*2*2*2*2*2*2
+
+
+# loops
+
+varIable = 10000
+
+if (varIable == 121):
+    print("1231221")
+else:
+    print("bye")
+
+print("404")
