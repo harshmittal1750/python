@@ -1,3 +1,4 @@
+import random
 days = ['Monday', 'Tuesday', 'Wednesday',
         'Thursday', 'Friday']
 
@@ -101,8 +102,6 @@ print(b << 7)  # 13 * 2*2*2*2*2*2*2
 print(b << 8)  # 13 * 2*2*2*2*2*2*2*2
 
 
-# loops
-
 varIable = 10000
 
 if (varIable == 121):
@@ -111,3 +110,114 @@ else:
     print("bye")
 
 print("404")
+
+x = "hey"
+y = " "
+
+
+def fun():
+    print(x + y+"user")
+
+
+fun()
+
+
+def func():
+    global x
+    x = "helolo"
+    print(x+"x")
+
+
+func()
+
+
+x = 54
+y = "helolo"
+z = 232342.3243123
+q = 1j
+w = ["apple", "banana", "cherry"]
+e = ("apple", "banana", "cherry")
+r = range(6)
+t = {"name": "John", "age": 36}
+o = {"apple", "banana", "cherry"}
+i = frozenset({"apple", "banana", "cherry"})
+p = True
+u = b"Hello"
+b = bytearray(5)
+m = memoryview(bytes(5))
+
+a = range(6)
+
+print(type(x))
+print(type(y))
+print(type(q))
+print(type(w))
+print(type(e))
+print(type(r))
+print(type(t))
+print(type(o))
+print(type(i))
+print(type(p))
+print(type(u))
+print(type(m))
+print(type(b))
+
+print(random.randrange(1, 10))
+
+
+a = "harsh mittal"
+print(a[1:10])
+
+'''if index number is 1 then it will count from 2nd letter of string and last index number is 10 then it will count till 9'''
+
+# loop in string
+
+for a in "banana":
+    print(a)
+
+a = "harsh"
+
+print(len(a))
+
+txt = "i do love her"
+
+print("do love her" in txt)
+
+text = "the best thing is she loves me too"
+
+if "love" in text:
+    print("oh god")
+
+if "live" not in text:
+    print("oh god")
+b = "Hello, World!"
+print(b[-5:-2])
+a = "Hello, World!"
+print(a.upper())
+a = "Hello, World!"
+print(a.lower())
+
+a = "          a     H e l l o, W o r l d!             "
+print(a.strip())
+a = "Hello, World!"
+print(a.replace("H", "beff"))
+a = "Hello World!"
+print(a.split(","))
+
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+bloodGroup = "b+"
+txt = "my bg is {}"
+print(txt.format(bloodGroup))
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+quantity = "3aerg"
+itemno = 567
+price = 49.95
+myorder = "I want to pay {0} dollars for {1} pieces of item {2}."
+print(myorder.format(quantity, itemno, price))
