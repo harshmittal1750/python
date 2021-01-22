@@ -221,3 +221,17 @@ itemno = 567
 price = 49.95
 myorder = "I want to pay {0} dollars for {1} pieces of item {2}."
 print(myorder.format(quantity, itemno, price))
+
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
+txt = "\x48\x65\x6c\x6c\x6f"
+print(txt)
+
+
+class myclass():
+    def __fen__(self):
+        return 0
+
+
+myobj = myclass()
+print(bool(myobj))
