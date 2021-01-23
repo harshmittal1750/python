@@ -226,12 +226,30 @@ txt = "We are the so-called \"Vikings\" from the north."
 print(txt)
 txt = "\x48\x65\x6c\x6c\x6f"
 print(txt)
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist[1:2] = ["blackcurrant", "watermelon", "kiwi", "kiwi....w24413.."]
+print(thislist)
 
+thislist = ["cpple", "banana", "aherry"]
+thislist.append("aotr")
+print(thislist)
 
-class myclass():
-    def __fen__(self):
-        return 0
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+thislist.insert(1, "orange")
 
+thislist.insert(1, "orange")
+thislist.insert(1, "orange")
 
-myobj = myclass()
-print(bool(myobj))
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thistuple = ("kiwi", "orange")
+thislist.extend(thistuple)
+print(thislist)
+thistuple = ("apple", "banana", "cherry")
+thislist = ["kiwi", "orange"]
+thislist.extend(thistuple)
+print(thislist)
