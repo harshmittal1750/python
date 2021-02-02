@@ -253,3 +253,6 @@ thistuple = ("apple", "banana", "cherry")
 thislist = ["kiwi", "orange"]
 thislist.extend(thistuple)
 print(thislist)
+
+
+#lists in details
